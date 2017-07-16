@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignment4_Planets
+namespace Assignment4-300606595
 {
     class Planet
     {
