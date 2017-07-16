@@ -48,11 +48,23 @@ namespace Assignment4-300606595
                 return this._moonCount;
             }
         }
+        public string Name
+        {
+            get
+            {
+                return this._name;
+            }
+           
+        }
         public double OrbitalPeriod
          {
              get
              {
                  return this._orbitalPeriod;
+             }
+             set
+             {
+                this._orbitalPeriod = value;
              }
          }
         public int RingCount
@@ -60,6 +72,10 @@ namespace Assignment4-300606595
              get
              {
                  return this._ringCount;
+             }
+            set
+             {
+                this._ringCount = value;
              }
          }
 
@@ -69,6 +85,10 @@ namespace Assignment4-300606595
              {
                  return this._rotationPeriod;
              }
+            set
+            {
+                this._rotationPeriod = value;
+            }
          }
 
     /// <summary>
