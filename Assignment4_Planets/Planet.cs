@@ -3,7 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+/*
+ * Name:Nirojan Kalaimannan
+ * Date: July 16, 2017
+ * Description: This is the Planet class
+ * Version: 0.1 -Created the Planet class
+ */
 namespace Assignment4-300606595
 {
     class Planet
@@ -22,20 +27,57 @@ namespace Assignment4-300606595
         /// <summary>
         /// Public Properties
         /// </summary>
-        public double Diameter { get; }
-        public double Mass { get; }
-        public int MoonCount { get; }
-        public double OrbitalPeriod { get; set; }
-        public int RingCount { get; set; }
-        public double RotationPeriod { get; set; }
+        public double Diameter
+          {
+             get
+             {
+                 return this._diameter;
+             }
+          }
+        public double Mass
+         {
+             get
+             {
+                 return this._mass;
+             }
+         }
+        public int MoonCount
+        {
+            get
+            {
+                return this._moonCount;
+            }
+        }
+        public double OrbitalPeriod
+         {
+             get
+             {
+                 return this._orbitalPeriod;
+             }
+         }
+        public int RingCount
+         {
+             get
+             {
+                 return this._ringCount;
+             }
+         }
 
-        /// <summary>
-        /// Constructor
-        /// </summary>
-        /// <param name="name"></param>
-        /// <param name="diameter"></param>
-        /// <param name="mass"></param>
-        Planet(string name, double diameter, double mass)
+        public double RotationPeriod
+         {
+             get
+             {
+                 return this._rotationPeriod;
+             }
+         }
+
+    /// <summary>
+    /// Constructor
+    /// </summary>
+    /// <param name="name"></param>
+    /// <param name="diameter"></param>
+    /// <param name="mass"></param>
+    Planet(string name, double diameter, double mass)
         {
             this._name = name;
             this._diameter = diameter;
