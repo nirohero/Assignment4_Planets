@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GiantPlanet.cs" />
+    <Compile Include="IHabitable.cs" />
     <Compile Include="IHasMoons.cs" />
     <Compile Include="IHasRings.cs" />
     <Compile Include="Planet.cs" />
