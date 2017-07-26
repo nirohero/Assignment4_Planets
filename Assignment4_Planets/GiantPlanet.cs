@@ -8,7 +8,7 @@ using System.Threading.Tasks;
  * Name:Nirojan Kalaimannan
  * Date: July 25, 2017
  * Description: This is the Giant Planet class that extends the base planet class
- * Version: 0.3 -Added iHasRings interface to this class
+ * Version: 0.4 -implemented methods interface to this class
  */
 namespace Assignment4
 { 
@@ -56,5 +56,34 @@ namespace Assignment4
         {
             this._type = type;
         }
+        //PUBLIC METHODS
+        /// <summary>
+        /// These methods check if the giant planet has moons and rings, if they do it returns true.
+        /// </summary>
+        /// <returns></returns>
+        public bool Moons()
+        {
+            if(MoonCount<0)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+            
+        }
+        public bool Rings()
+        {
+            if (RingCount < 0)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+        
     }
 }
