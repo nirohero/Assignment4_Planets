@@ -9,9 +9,12 @@ using System.Threading.Tasks;
  * Description: This is the Planet class
  * Version: 0.1 -Created the Planet class
  */
-namespace Assignment4-300606595
+namespace Assignment4
 {
-    class Planet
+    /// <summary>
+    /// This is the abstract Planet class
+    /// </summary>
+    public abstract class Planet
     {
         /// <summary>
         /// Private instance variables
@@ -97,7 +100,7 @@ namespace Assignment4-300606595
     /// <param name="name"></param>
     /// <param name="diameter"></param>
     /// <param name="mass"></param>
-    Planet(string name, double diameter, double mass)
+    public Planet(string name, double diameter, double mass)
         {
             this._name = name;
             this._diameter = diameter;
