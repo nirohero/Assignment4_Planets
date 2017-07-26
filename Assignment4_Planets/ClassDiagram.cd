@@ -15,16 +15,16 @@
     </TypeIdentifier>
   </Class>
   <Interface Name="Assignment4.IHasMoons">
-    <Position X="10" Y="3.75" Width="2.25" />
+    <Position X="11" Y="2" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IHasMoons.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="Assignment4_Planets.IHasRings">
-    <Position X="7.75" Y="6" Width="2" />
+  <Interface Name="Assignment4.IHasRings">
+    <Position X="11.25" Y="3.5" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IHasRings.cs</FileName>
     </TypeIdentifier>
   </Interface>

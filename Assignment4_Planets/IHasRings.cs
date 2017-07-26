@@ -8,11 +8,11 @@ using System.Text;
  * Description: This is an interface that defines a ring property
  * Version: 0.1 -Created the IHasRingsinterace
  */
-namespace Assignment4_Planets
+namespace Assignment4
 {
     public interface IHasRings
     {
         
-        bool hasRings { get; set;}
+        bool HasRings { get; set;}
     }
 }
