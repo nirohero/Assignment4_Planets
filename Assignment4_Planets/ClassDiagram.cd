@@ -21,5 +21,12 @@
       <FileName>IHasMoons.cs</FileName>
     </TypeIdentifier>
   </Interface>
+  <Interface Name="Assignment4_Planets.IHasRings">
+    <Position X="7.75" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IHasRings.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
