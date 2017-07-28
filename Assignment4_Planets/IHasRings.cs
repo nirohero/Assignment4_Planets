@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 /*
  * Name:Nirojan Kalaimannan
- * Date: July 25, 2017
+ *  Student Number:300606595
+ * Date: July 27, 2017
  * Description: This is an interface that defines a ring property
- * Version: 0.1 -Created the IHasRingsinterace
+ * Version: 0.2 -Fixed interface to have new method
  */
 namespace Assignment4
 {
     public interface IHasRings
     {
-        
-        bool HasRings { get; set;}
+        bool HasRings();
     }
 }

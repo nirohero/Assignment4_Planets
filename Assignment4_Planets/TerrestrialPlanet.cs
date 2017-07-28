@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 /*
  * Name:Nirojan Kalaimannan
- * Date: July 26, 2017
+  * Student Number:300606595
+ * Date: July 27, 2017
  * Description: This is the TerristrialPlanet class
- * Version: 0.1 -Created the TerrestrialPlanet class
+ * Version: 0.2 - Updated interface and implementation methods 
  */
 namespace Assignment4
 {
@@ -17,7 +18,7 @@ namespace Assignment4
         private bool _hasMoons;
         private bool _habitable;
 
-        public bool HasMoons
+        /*public bool HasMoons
         {
             get
             {
@@ -39,14 +40,14 @@ namespace Assignment4
                 this._habitable = value;
             }
         }
-
+        */
         //CONSTRUCTOR
         public TerrestrialPlanet(string name, double diameter, double mass, bool oxygen)
         : base(name, diameter, mass)
         {
             this._oxygen = oxygen;
         }
-        public bool Moons()
+        public bool HasMoons()
         {
             if (MoonCount < 0)
             {
@@ -57,7 +58,7 @@ namespace Assignment4
                 return true;
             }
         }
-        public bool isHabitable()
+        public bool Habitable()
         {
             if(_oxygen==false)
             {

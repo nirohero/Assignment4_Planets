@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 /*
  * Name:Nirojan Kalaimannan
- * Date: July 25, 2017
+ * Student Number:300606595
+ * Date: July 27, 2017
  * Description: This is the Giant Planet class that extends the base planet class
- * Version: 0.4 -implemented methods interface to this class
+ * Version: 0.5 -commented out and reduced code for my own understanding 
  */
 namespace Assignment4
 { 
@@ -20,7 +21,7 @@ namespace Assignment4
         private bool _hasMoons;
         private bool _hasRings;
         //PUBLIC PROPERTIES
-        public bool HasMoons
+        /*public bool HasMoons
         {
             get
             {
@@ -31,6 +32,8 @@ namespace Assignment4
                 this._hasMoons = value;
             }
         }
+        */
+        /*
         public bool HasRings
         {
             get
@@ -42,7 +45,7 @@ namespace Assignment4
                 this._hasRings = value;
             }
         }
-
+        */
         
         /// <summary>
         /// This is the constructor
@@ -61,7 +64,7 @@ namespace Assignment4
         /// These methods check if the giant planet has moons and rings, if they do it returns true.
         /// </summary>
         /// <returns></returns>
-        public bool Moons()
+        public bool HasMoons()
         {
             if(MoonCount<0)
             {
@@ -73,7 +76,7 @@ namespace Assignment4
             }
             
         }
-        public bool Rings()
+        public bool HasRings()
         {
             if (RingCount < 0)
             {
