@@ -28,6 +28,7 @@ namespace Assignment4
         }
         static void waitForAnyKey()
         {
+            // This method makes sure the user presses a button so that the prompt won't automatically close.
             Console.ReadLine();
         }
 

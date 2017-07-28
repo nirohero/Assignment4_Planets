@@ -16,36 +16,13 @@ namespace Assignment4
         //PRIVATE INSTANCE VARIABLES
         private bool _oxygen;
       
-
-        /*public bool HasMoons
-        {
-            get
-            {
-                return this._hasMoons;
-            }
-            set
-            {
-                this._hasMoons = value;
-            }
-        }
-        public bool Habitable
-        {
-            get
-            {
-                return this._habitable;
-            }
-            set
-            {
-                this._habitable = value;
-            }
-        }
-        */
         //CONSTRUCTOR
         public TerrestrialPlanet(string name, double diameter, double mass, bool oxygen)
         : base(name, diameter, mass)
         {
             this._oxygen = oxygen;
         }
+        //method implementations
         public bool HasMoons()
         {
             if (MoonCount < 0)
@@ -68,6 +45,11 @@ namespace Assignment4
                 return true;
             }
         }
+        /// <summary>
+        /// The driver class will this method when it is placed in the Console.Writeline method, returning a string that displays 
+        /// in the prompt when ran.
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             string stats = "";

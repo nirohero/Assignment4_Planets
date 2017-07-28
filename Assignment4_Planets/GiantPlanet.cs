@@ -19,32 +19,6 @@ namespace Assignment4
         private string _type;
 
         
-        //PUBLIC PROPERTIES
-        /*public bool HasMoons
-        {
-            get
-            {
-                return this._hasMoons;
-            }
-            set
-            {
-                this._hasMoons = value;
-            }
-        }
-        */
-        /*
-        public bool HasRings
-        {
-            get
-            {
-                return this._hasRings;
-            }
-            set
-            {
-                this._hasRings = value;
-            }
-        }
-        */
         
         /// <summary>
         /// This is the constructor
@@ -63,6 +37,7 @@ namespace Assignment4
         /// These methods check if the giant planet has moons and rings, if they do it returns true.
         /// </summary>
         /// <returns></returns>
+        // Method implementations
         public bool HasMoons()
         {
             if(MoonCount<0)
@@ -86,6 +61,11 @@ namespace Assignment4
                 return true;
             }
         }
+        /// <summary>
+        /// The driver class will this method when it is placed in the Console.Writeline method, returning a string that displays 
+        /// in the prompt when ran.
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             string stats ="";
