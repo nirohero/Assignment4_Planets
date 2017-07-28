@@ -10,15 +10,15 @@
   <Class Name="Assignment4.GiantPlanet">
     <Position X="6.5" Y="2.5" Width="4.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAABAAAAAQAAAAgBAAAAAACAAAgABAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GiantPlanet.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="Assignment4.TerrestrialPlanet">
-    <Position X="1" Y="8.25" Width="5" />
+    <Position X="1" Y="8" Width="5" />
     <TypeIdentifier>
-      <HashCode>QAAAAAAABAAAAAQAAAAABAAAAAAAAAAgIBAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>TerrestrialPlanet.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />

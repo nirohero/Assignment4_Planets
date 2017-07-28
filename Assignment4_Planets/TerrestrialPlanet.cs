@@ -7,7 +7,7 @@ using System.Text;
   * Student Number:300606595
  * Date: July 27, 2017
  * Description: This is the TerristrialPlanet class
- * Version: 0.2 - Updated interface and implementation methods 
+ * Version: 0.3 - Added ToString method 
  */
 namespace Assignment4
 {
@@ -15,8 +15,7 @@ namespace Assignment4
     {
         //PRIVATE INSTANCE VARIABLES
         private bool _oxygen;
-        private bool _hasMoons;
-        private bool _habitable;
+      
 
         /*public bool HasMoons
         {
@@ -68,6 +67,21 @@ namespace Assignment4
             {
                 return true;
             }
+        }
+        public override string ToString()
+        {
+            string stats = "";
+            stats += "====================\n";
+            stats += "Planet name: " + this.Name;
+            stats += "\n";
+            stats += "Diameter: " + this.Diameter;
+            stats += "\n";
+            stats += "Mass: " + this.Mass;
+            stats += "\n";
+            stats += "Oxygen: " + this._oxygen;
+            stats += "\n";
+            stats += "====================\n";
+            return stats;
         }
     }
 }
