@@ -56,7 +56,6 @@ namespace Assignment4
         public GiantPlanet(string name,double diameter,double mass, string type)
         :base(name,diameter,mass)
         {
-         
             this._type = type;
         }
         //PUBLIC METHODS
@@ -99,7 +98,7 @@ namespace Assignment4
             stats+= "\n";
             stats+= "Type: " + this._type;
             stats += "\n";
-            stats += "====================\n";
+            stats+= "====================\n";
             return stats;
         }
         

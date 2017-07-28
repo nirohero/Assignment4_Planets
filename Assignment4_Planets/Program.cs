@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 /*
  * Name:Nirojan Kalaimannan
- * Date: July 27, 2017
+ * Date: July 28, 2017
  * Description: This is the driver class
- * Version: 0.2 - Instantiated objects from both the Giant planet class and Terrestrial Planet class
+ * Version: 0.3 - Added waitForAnyKey method that waits for the user to press a key before the prompt closes.
  */
  
 namespace Assignment4
@@ -23,6 +23,13 @@ namespace Assignment4
             //Created  a terrestrial planet object
             TerrestrialPlanet terristrestrialPlanet = new TerrestrialPlanet("Earth",12742,1,true);
             Console.WriteLine(terristrestrialPlanet.ToString());
+
+            
         }
+        static void waitForAnyKey()
+        {
+            Console.ReadLine();
+        }
+
     }
 }
